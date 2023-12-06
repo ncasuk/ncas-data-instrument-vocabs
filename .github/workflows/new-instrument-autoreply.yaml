@@ -1,0 +1,24 @@
+on:
+  issues:
+    types: 
+      - labeled
+
+jobs:
+  reply:
+    if: ${{ github.event.label.name == 'new-instrument' }}
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:    
+      - name: Comment on issue with task list
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          echo "Thank you for submitting a request for a new instrument. The following need to be decided through discussion:
+            - [ ] NCAS instrument ID.
+            - [ ] Instrument descriptor.
+            - [ ] Data product(s).
+            - [ ] Instrument category.
+            - [ ] Host institution.
+            - [ ] List of previous instrument IDs (if any)." | gh issue comment ${{ github.event.issue.number }} -F -
