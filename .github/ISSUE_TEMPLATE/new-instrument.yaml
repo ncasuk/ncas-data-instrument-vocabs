@@ -1,6 +1,6 @@
 name: New Instrument
 description: Add new instrument to NCAS instrument list
-title: "[NEW INSTRUMENT]: "
+title: New instrument request
 labels: ["new-instrument"]
 assignees:
   - joshua-hampton, gap736uk
