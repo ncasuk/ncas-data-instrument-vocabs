@@ -1,0 +1,76 @@
+name: New Instrument
+description: Add new instrument to NCAS instrument list
+title: "[NEW INSTRUMENT]: "
+labels: ["new-instrument"]
+assignees:
+  - joshua-hampton, gap736uk
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill in the following to provide information about the new instrument.
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Instrument Manufacturer
+      description: Name of the company that made the instrument.
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Instrument Model
+      description: Model name or number of the instrument.
+    validations:
+      required: true
+  - type: input
+    id: serial
+    attributes:
+      label: Instrument Serial Number
+      description: Serial number of the instrument.
+    validations:
+      required: true
+  - type: input
+    id: scientist-name
+    attributes:
+      label: Instrument Scientist Name
+      description: Name of the scientist resposible for the instrument.
+    validations:
+      required: true
+  - type: input
+    id: scientist-orcid
+    attributes:
+      label: Instrument Scientist ORCID
+      description: ORCID of the instrument scientist.
+    validations:
+      required: true
+  - type: input
+    id: instrument-owner
+    attributes:
+      label: Instrument Owner
+      description: Legal owner of the instrument.
+    validations:
+      required: true
+  - type: dropdown
+    id: location
+    attributes:
+      label: NCAS Observatory
+      description: Observatory at which instrument will be primarily located. For mobile instruments, select "mobile"
+      multiple: false
+      options:
+        - BTTAO
+        - CAO
+        - CDAO
+        - CVAO
+        - IAO
+        - WAO
+        - mobile
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Instrument description
+      description: Please provide a brief description of the instrument, including how it works and what it measures (no more than a few sentances).
+    validations:
+      required: true
