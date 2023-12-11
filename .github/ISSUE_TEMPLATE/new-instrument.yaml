@@ -44,13 +44,28 @@ body:
       description: ORCID of the instrument scientist.
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: instrument-owner
     attributes:
-      label: Instrument Owner
+      label: Instrument Owner (and ROR ID)
       description: Legal owner of the instrument.
+      multiple: false
+      options:
+        - National Centre for Atmospheric Science (https://ror.org/01wwwe276)
+        - Science and Technology Facilities Council (https://ror.org/057g20z61)
+        - University of East Anglia (https://ror.org/026k5mg93)
+        - University of Leeds (https://ror.org/024mrxd33)
+        - University of Manchester (https://ror.org/027m9bs27)
+        - University of York (https://ror.org/04m01e293)
+        - Other
     validations:
       required: true
+  - type: input
+    id: instrument-owner-other
+    attributes:
+      label: If "Other" selected above, please type the owner and ROR ID (if known) below.
+    validations:
+      required: false
   - type: dropdown
     id: location
     attributes:
