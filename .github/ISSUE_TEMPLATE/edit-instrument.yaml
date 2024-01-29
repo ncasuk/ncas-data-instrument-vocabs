@@ -16,7 +16,7 @@ body:
       description: NCAS name of the instrument.
       multiple: false
       options:
-         - ncas-aerosol-mass-spec-1
+        - ncas-aerosol-mass-spec-1
         - ncas-sonic-3
         - ncas-sonic-4
         - ncas-sonic-1
