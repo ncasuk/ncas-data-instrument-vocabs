@@ -1,0 +1,24 @@
+on:
+  issues:
+    types: 
+      - labeled
+
+jobs:
+  reply:
+    if: ${{ github.event.label.name == 'edit-instrument' }}
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:    
+      - name: Comment on issue with task list
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          instrument_name=$(echo "$BODY" | grep -A 2 '### Instrument' | tail -n 1)
+          if ! echo "$TITLE" | grep -q "$instrument_name"
+          then
+            gh issue edit ${{ github.event.issue.number }} -t "$TITLE: $instrument_name"
+          fi
