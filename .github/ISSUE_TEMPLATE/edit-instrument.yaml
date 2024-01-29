@@ -1,0 +1,200 @@
+name: Edit Instrument
+description: Edit instrument info on NCAS instrument list
+title: Edit instrument request 
+labels: ["edit-instrument"]
+assignees:
+  - joshua-hampton, gap736uk
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill in the following to provide information about the new instrument.
+  - type: dropdown
+    id: instid
+    attributes:
+      label: Instrument
+      description: NCAS name of the instrument.
+      multiple: false
+      options:
+         - ncas-aerosol-mass-spec-1
+        - ncas-sonic-3
+        - ncas-sonic-4
+        - ncas-sonic-1
+        - ncas-sonic-2
+        - ncas-anemometer-1
+        - ncas-anemometer-2
+        - ncas-aps-1
+        - ncas-aps-2
+        - ncas-cam-7
+        - ncas-cam-3
+        - ncas-cam-4
+        - ncas-cam-8
+        - ncas-cam-9
+        - ncas-cam-10
+        - ncas-cam-5
+        - ncas-cam-1
+        - ncas-cam-2
+        - ncas-cam-6
+        - ncas-caps-1
+        - ncas-ceilometer-1
+        - ncas-ceilometer-2
+        - ncas-ceilometer-3
+        - ncas-ceilometer-4
+        - ncas-ceilometer-5
+        - ncas-ceilometer-6
+        - ncas-ceilometer-7
+        - ncas-ghg-gc-fid-1
+        - ncas-ugga-1
+        - ncas-ftir-1
+        - ncas-aerolaser-co-1
+        - ncas-aerolaser-co-2
+        - ncas-co-1
+        - ncas-co-2
+        - ncas-co-picarro-1
+        - ncas-rga3-1
+        - ncas-co2-1
+        - ncas-cpc-3010-1
+        - ncas-cpc-3010-2
+        - ncas-cpc-3750-1
+        - ncas-cpc-3750-2
+        - ncas-cpc-3762-1
+        - ncas-cpc-3762-2
+        - ncas-cpc-3762-3
+        - ncas-cpc-3762-4
+        - ncas-cpc-3776-1
+        - ncas-cpc-3776-2
+        - ncas-cpc-3776-3
+        - ncas-cpc-3776-4
+        - ncas-cpi-2
+        - ncas-cpi-1
+        - ncas-dc-gc-fid-2
+        - ncas-dc-gc-fid-3
+        - ncas-dc-gc-fid-4
+        - ncas-dc-gc-fid-1
+        - ncas-dewpoint-hygrometer-1
+        - ncas-disdrometer-1
+        - ncas-disdrometer-2
+        - ncas-energy-balance-1
+        - ncas-energy-balance-2
+        - ncas-fage-1
+        - ncas-filtered-radiometer-1
+        - ncas-flux-1
+        - ncas-flux-2
+        - ncas-gc-ms-1
+        - ncas-halocarbon-gc-1
+        - ncas-gc-ms-tof-1
+        - ncas-opc-1
+        - ncas-opc-2
+        - ncas-scanning-radiometer-2
+        - ncas-hvps3-1
+        - ncas-licor-1
+        - ncas-licor-2
+        - ncas-lidar-dop-3
+        - ncas-lidar-dop-4
+        - ncas-o3-lidar-1
+        - ncas-lidar-dop-1
+        - ncas-lidar-dop-2
+        - ncas-lidar-uv-raman-1
+        - ncas-lidar-wind-profiler-1
+        - ncas-tgm-tekran-1
+        - ncas-aws-1
+        - ncas-aws-10
+        - ncas-aws-12
+        - ncas-aws-13
+        - ncas-aws-3
+        - ncas-aws-7
+        - ncas-aws-8
+        - ncas-aws-11
+        - ncas-aws-2
+        - ncas-mrr-1
+        - ncas-scanning-radiometer-1
+        - ncas-scanning-radiometer-3
+        - ncas-scanning-radiometer-4
+        - ncas-42i-nox-1
+        - ncas-fast-nox-1
+        - ncas-high-sen-nox-1
+        - ncas-noxy-1
+        - ncas-teco-nox-1
+        - ncas-teledyne-t200up-nox-1
+        - ncas-o2-1
+        - ncas-2b-1chan-o3-1
+        - ncas-2b-2chan-o3-1
+        - ncas-49c-o3-1
+        - ncas-49i-o3-1
+        - ncas-49i-o3-3
+        - ncas-49i-o3-4
+        - ncas-pan-gc-1
+        - ncas-present-weather-1
+        - ncas-pressure-1
+        - ncas-ptrms-1
+        - ncas-radar-camra-1
+        - ncas-radar-ka-band-1
+        - ncas-radar-w-band-1
+        - ncas-mobile-ka-band-radar-1
+        - ncas-mobile-x-band-radar-1
+        - ncas-radar-mst-1
+        - ncas-radar-wind-profiler-1
+        - ncas-radiosonde-1
+        - ncas-radiosonde-2
+        - ncas-radiometer-1
+        - ncas-radiometer-2
+        - ncas-radiometer-3
+        - ncas-radiometer-4
+        - ncas-rain-gauge-1
+        - ncas-rain-gauge-2
+        - ncas-rain-gauge-3
+        - ncas-rain-gauge-4
+        - ncas-rain-gauge-5
+        - ncas-rain-gauge-6
+        - ncas-rain-gauge-7
+        - ncas-rapidsonde-1
+        - ncas-rapidsonde-2
+        - ncas-ghg-gc-ecd-1
+        - ncas-smps-1
+        - ncas-smps-2
+        - ncas-smps-3
+        - ncas-smps-4
+        - ncas-smps-5
+        - ncas-43i-so2-2
+        - ncas-sodar-1
+        - ncas-sodar-2
+        - ncas-sodar-3
+        - ncas-spectral-radiometer-2
+        - ncas-spectral-radiometer-1
+        - ncas-spectral-radiometer-3
+        - ncas-sunphotometer-1
+        - ncas-sunphotometer-2
+        - ncas-sunphotometer-3
+        - ncas-sunphotometer-4
+        - ncas-temperature-rh-1
+    validations:
+      required: true
+  - type: dropdown
+    id: attr
+    attributes:
+      label: Attribute
+      description: Which attribute of the instrument needs changing.
+      multiple: false
+      options:
+        - Instrument Scientist
+        - Legal Owner of instrument
+        - Instrument Location
+        - Host Institution
+        - Instrument Category
+        - Data Product
+    validations:
+      required: true
+  - type: input
+    id: serial
+    attributes:
+      label: New value
+      description: What should the new value of this attribute be?
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Please explain why this change is needed.
+    validations:
+      required: true
