@@ -1,4 +1,4 @@
-Instrument	Manufacturer	Model No.	Serial Number	Old Instrument Name	New Instrument Name	Data Product(s)	Mobile/Fixed (loc)	Host	Scientist	Category	Descriptor	Owner
+Instrument	Manufacturer	Model No.	Serial Number	Old Instrument Name	New Instrument Name	Data Product(s)	Mobile/Fixed (loc)	Host	Scientist	Category	Descriptor	Owner	PID
 Met - Pre ICOS	Campbell Scientific				uea-aws-1	surface-met	fixed - WAO	UEA	Grant Forster	surface met	UEA Automatic Weather Station unit 1	UEA
 Met - ICOS	Gill	MetPak			uea-aws-2	surface-met	fixed - WAO	UEA	Grant Forster	surface met	UEA Automatic Weather Station unit 2	UEA
 NO2	Teledyne	T500U	187		uea-caps-1	no2-concentration	fixed - WAO	UEA	Grant Forster	gas phase	UEA Cavity Attenuated Phase Shift Spectroscopy unit 1	UEA
