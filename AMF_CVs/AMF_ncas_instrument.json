@@ -646,11 +646,6 @@
             ],
             "description": "NCAS X-Band Mobile Radar unit 1"
         },
-        "ncas-mobile-x-band-radar-2": {
-            "instrument_id": "ncas-mobile-x-band-radar-2",
-            "previous_instrument_ids": [],
-            "description": "NCAS X-Band Mobile Radar unit 2"
-        },
         "ncas-radar-mst-1": {
             "instrument_id": "ncas-radar-mst-1",
             "previous_instrument_ids": [],
@@ -846,6 +841,27 @@
             "instrument_id": "ncas-temperature-rh-1",
             "previous_instrument_ids": [],
             "description": "NCAS Temperature and Humidity Sensor unit 1"
+        },
+        "ncas-cam-11": {
+            "instrument_id": "ncas-cam-11",
+            "previous_instrument_ids": [
+                "None"
+            ],
+            "description": "NCAS Camera unit 11"
+        },
+        "ncas-cam-12": {
+            "instrument_id": "ncas-cam-12",
+            "previous_instrument_ids": [
+                "None"
+            ],
+            "description": "NCAS Camera unit 12"
+        },
+        "ncas-radar-x-band-2": {
+            "instrument_id": "ncas-radar-x-band-2",
+            "previous_instrument_ids": [
+                "None"
+            ],
+            "description": "NCAS X-Band Mobile Radar unit 2"
         }
     }
 }

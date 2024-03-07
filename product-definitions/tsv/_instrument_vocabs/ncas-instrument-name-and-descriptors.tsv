@@ -1,4 +1,4 @@
-Instrument	Manufacturer	Model No.	Serial Number	Old Instrument Name	New Instrument Name	Data Product(s)	Mobile/Fixed (loc)	Host	Scientist	Category	Descriptor	Owner
+Instrument	Manufacturer	Model No.	Serial Number	Old Instrument Name	New Instrument Name	Data Product(s)	Mobile/Fixed (loc)	Host	Scientist	Category	Descriptor	Owner	PID
 AMS C-TOF-AMS	Aerodyne Research Inc	C-TOF-AMS		man-ams	ncas-aerosol-mass-spec-1	aerosol-no3-so4-nh3-org-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS Aerosol Mass Spectrometer unit 1	NCAS
 Anemometer 2D Sonic	Gill	WindSonic			ncas-sonic-3	mean-winds	fixed - IAO	Leeds	Barbara Brooks	Winds	NCAS Sonic Anemometer unit 3	NCAS
 Anemometer 2D Sonic	Gill	WindSonic			ncas-sonic-4	mean-winds	fixed - CVAO	York	Katie Read	gas phase	NCAS Sonic Anemometer unit 4	NCAS
@@ -115,7 +115,6 @@ Radar - Copernicus					ncas-radar-ka-band-1	radar	fixed - CAO	STFC	Chris Walden	
 Radar - Galileo					ncas-radar-w-band-1	radar	fixed - CAO	STFC	Chris Walden	radar	NCAS W-Band Galileo Cloud Radar unit 1	NCAS
 Radar - mobile ka band	METEK	MIRA-35			ncas-mobile-ka-band-radar-1	radar	Mobile	STFC	Chris Walden	radar	NCAS Ka-Band Mobile Cloud Radar unit 1	AMOF
 Radar - mobile X band	Selex	METEOR 60DX		ncas-mobile-xband-radar	ncas-mobile-x-band-radar-1	radar	Mobile	Leeds	Lindsay Bennett	radar	NCAS X-Band Mobile Radar unit 1	AMOF
-Radar - mobile X band					ncas-mobile-x-band-radar-2	radar	Mobile	Leeds	Lindsay Bennett	radar	NCAS X-Band Mobile Radar unit 2
 Radar - mst	Bespoke	Bespoke			ncas-radar-mst-1	snr-winds	fixed - CDAO	STFC	David Hooper	radar	NCAS MST Radar unit 1	NCAS
 Radar - windprofiler	Degreane Horizon	Degrewind PCL1300		aber-radar-1290mhz, man-radar-1290mhz	ncas-radar-wind-profiler-1	snr-winds	Mobile	Manchester	Emily Norton	profiler	NCAS Mobile Radar Wind Profiler unit 1	AMOF
 Radio sonde	Vaisala	MW41|For older data this can also be MW31 or MW21		man-radiosonde	ncas-radiosonde-1	sonde	Mobile	Manchester	Hugo Ricketts	profiler	NCAS Vaisala Sounding Station unit 1	AMOF
@@ -151,3 +150,6 @@ sun photometer	Cimel	CE318-T			ncas-sunphotometer-2	aerosol-optical-depth	Mobile
 sun photometer	Spectrafy	Solsim	155		ncas-sunphotometer-3	aerosol-optical-depth	fixed - IAO	Leeds	Barbara Brooks	radiation	NCAS Sky-Sun-Lunar Photometer unit 3	NCAS
 sun photometer	Cimel	CE318-T	discontinued		ncas-sunphotometer-4	aerosol-optical-depth	fixed - CAO	STFC	Emal Rumi	radiation	NCAS Sky-Sun-Lunar Photometer unit 4	NCAS
 temperature\rh sensor	Vaisala	HMP155A	L0550630		ncas-temperature-rh-1	surface-met	fixed - CAO	STFC	Judith Jeffery	surface met	NCAS Temperature and Humidity Sensor unit 1	NCAS
+Camera	Canon	EOS 6D Mark II	583053001031	None	ncas-cam-11	photo	Mobile	Leeds	James Groves	imager	NCAS Camera unit 11	NCAS
+Camera	Canon	EOS 6D Mark II	583053001033	None	ncas-cam-12	photo	Mobile	Leeds	James Groves	imager	NCAS Camera unit 12	NCAS
+Radar	LEONARDO Germany GmbH	Meteor 60DX10-S	2208392	None	ncas-radar-x-band-2	radar	Mobile	Leeds	Lindsay Bennett	radar	NCAS X-Band Mobile Radar unit 2	Leeds

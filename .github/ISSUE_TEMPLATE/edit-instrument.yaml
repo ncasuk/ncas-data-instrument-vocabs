@@ -35,6 +35,8 @@ body:
         - ncas-cam-1
         - ncas-cam-2
         - ncas-cam-6
+        - ncas-cam-11
+        - ncas-cam-12
         - ncas-caps-1
         - ncas-ceilometer-1
         - ncas-ceilometer-2
@@ -130,6 +132,7 @@ body:
         - ncas-radar-camra-1
         - ncas-radar-ka-band-1
         - ncas-radar-w-band-1
+        - ncas-radar-x-band-2
         - ncas-mobile-ka-band-radar-1
         - ncas-mobile-x-band-radar-1
         - ncas-radar-mst-1
