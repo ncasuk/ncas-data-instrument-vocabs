@@ -1,0 +1,27 @@
+{
+    "upload_type": "dataset",
+    "title": "NCAS Instrument Vocabulary",
+    "creators": [
+        {
+            "name": "National Centre for Atmospheric Science"
+        }
+    ],
+    "contributors": [
+        {
+            "affiliation": "National Centre for Atmospheric Science",
+            "name": "Hampton, Joshua M.",
+            "orcid": "0000-0001-7430-8655",
+            "type": "DataManager"
+        },
+        {
+            "affiliation": "National Centre for Atmospheric Science",
+            "name": "Parton, Graham A.",
+            "orcid": "0000-0003-4157-0352",
+            "type": "DataManager"
+        }
+    ],
+    "description": "Controlled Vocabularies of NCAS instruments",
+    "access_right": "open",
+    "license": "cc-zero",
+    "communities": [{"identifier":"ceda-document-repository"}]
+}
