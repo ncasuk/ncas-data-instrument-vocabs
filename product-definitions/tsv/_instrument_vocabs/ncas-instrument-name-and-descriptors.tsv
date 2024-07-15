@@ -35,7 +35,7 @@ CO	Ametek	ta3000R			ncas-co-1	co-concentration	Mobile	York	James Lee	gas phase	N
 CO	Ametek	ta3000R			ncas-co-2	co-concentration	Mobile	York	James Lee	gas phase	NCAS Ametek CO Monitor unit 2	AMOF
 CO	Picarro	G2401 CO,CH4,CO2,H2O Analyzer			ncas-co-picarro-1	co-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS Picarro CO Monitor unit 1	NCAS
 CO & H2	Trace Analytical	RGA3		wao-rga	ncas-rga3-1	co-h2-concentration|h2-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Reduction Gas Analyser unit 1	NCAS
-CO2	Siemens	Ultramet 6E		wao-siemens-oxzilla	ncas-co2-1	co2-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Seimens Oxilla CO2 Gas Monitor unit 1	NCAS
+CO2	Siemens	Ultramet 6E		wao-CO2	ncas-co2-1	co2-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Seimens Oxilla CO2 Gas Monitor unit 1	NCAS
 CPC 3010	TSI	3010		uom-3010cpc-1	ncas-cpc-3010-1	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3010 Condensation Particle Counter unit 1	AMOF
 CPC 3010	TSI	3010		uom-3010cpc-2	ncas-cpc-3010-2	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3010 Condensation Particle Counter unit 2	AMOF
 CPC 3750	TSI	3750			ncas-cpc-3750-1	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3750 Condensation Particle Counter unit 1	AMOF
@@ -99,7 +99,7 @@ NOx	Air Quality Design Inc	High Performance, 2 Channel NOx monitor			ncas-high-s
 NOx	Air Quality Design Inc	High Performance, 2 Channel NOx monitor		cv-noxy	ncas-noxy-1	nox-noxy-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS AQD High Sensitivity NOx Monitor unit 1	NCAS
 NOx	ThermoScientific	42i			ncas-teco-nox-1	nox-noxy-concentration	Mobile	York	Katie Read	gas phase	NCAS Teco NOx Monitor unit 1	AMOF
 NOx	Teledyne	T200UP			ncas-teledyne-t200up-nox-1	nox-noxy-concentration	Mobile	York	Katie Read	gas phase	NCAS Teledyne NOx Monitor unit 1	AMOF
-O2	Sable	Oxzilla II		wao-siemens-oxzilla	ncas-o2-1	o2n2-concentration-ratio	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Seimens Oxilla O2 Gas Monitor unit 1	NCAS
+O2	Sable	Oxzilla II		wao-O2	ncas-o2-1	o2n2-concentration-ratio	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Seimens Oxilla O2 Gas Monitor unit 1	NCAS
 O3	2B Technologies	202		york-ozone6	ncas-2b-1chan-o3-1	o3-concentration	Mobile	York	Katie Read	gas phase	NCAS 1 Channel O3 Monitor unit 1	AMOF
 O3	2B Technologies	205		york-ozone7	ncas-2b-2chan-o3-1	o3-concentration	Mobile	York	Katie Read	gas phase	NCAS 2 Channel O3 Monitor unit 1	AMOF
 O3	ThermoScientific	49c		leeds-o3	ncas-49c-o3-1	o3-concentration	Mobile	Leeds	Lisa Whalley	gas phase	NCAS Thermo 42c O3 Monitor unit 1	AMOF
@@ -130,7 +130,7 @@ Rain Gauge	OTT	Pluvio 2	367792		ncas-rain-gauge-4	precipitation	fixed - CAO	STFC
 Rain Gauge	Munro		1280/5		ncas-rain-gauge-5	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Tipping Bucket Rain Gauge unit 5	NCAS
 Rain Gauge	Munro?		233/2		ncas-rain-gauge-6	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Tipping Bucket Rain Gauge unit 6	NCAS
 Rain Gauge	Bespoke		BA-008		ncas-rain-gauge-7	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Drop Counting Rain Gauge unit 7	NCAS
-Rapid sonde	Windsond	Not appicable			ncas-rapidsonde-1	sonde	Mobile	Machester	Hugo Ricketts	profiler	NCAS Windsond Sounding Station unit 1	AMOF
+Rapid sonde	Windsond	Not appicable			ncas-rapidsonde-1	sonde	Mobile	Manchester	Hugo Ricketts	profiler	NCAS Windsond Sounding Station unit 1	AMOF
 Rapid sonde	Windsond	Not appicable	2020-02-06		ncas-rapidsonde-2	sonde	Mobile	Leeds	Phil Rosenberg	profiler	NCAS Windsond Sounding Station unit 2	AMOF
 SF6	Perkin Elmer	Clarus 500 Gas Chromatograph		wao-ghg-gc-ecd	ncas-ghg-gc-ecd-1	n2o-sf6-concentration|sf6-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Gas Chromatograph with Electron Capture Detector unit 1	NCAS
 SMPS	TSI	3936		man-smps-1	ncas-smps-1	aerosol-size-distribution	Mobile	Manchester	Paul I Williams	aerosol	NCAS Scanning Mobility Particle Spectrometer unit 1	AMOF

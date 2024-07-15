@@ -195,7 +195,7 @@
         "ncas-co2-1": {
             "instrument_id": "ncas-co2-1",
             "previous_instrument_ids": [
-                "wao-siemens-oxzilla"
+                "wao-CO2"
             ],
             "description": "NCAS Seimens Oxilla CO2 Gas Monitor unit 1"
         },
@@ -553,7 +553,7 @@
         "ncas-o2-1": {
             "instrument_id": "ncas-o2-1",
             "previous_instrument_ids": [
-                "wao-siemens-oxzilla"
+                "wao-O2"
             ],
             "description": "NCAS Seimens Oxilla O2 Gas Monitor unit 1"
         },
