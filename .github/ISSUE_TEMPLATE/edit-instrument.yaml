@@ -175,20 +175,20 @@ body:
   - type: checkboxes
     id: attr
     attributes:
-      label: Attribute
-      description: Which attribute of the instrument needs changing.
+      label: Attribute(s)
+      description: Which attribute(s)of the instrument need(s) changing.
       options:
-        - Instrument Scientist
-        - Legal Owner of instrument
-        - Instrument Location
-        - Host Institution
-        - Instrument Category
-        - Data Product
-        - Instrument Manufacturer
-        - Instrument Model Number
-        - Instrument Serial Number
-        - Old Instrument Name
-        - Instrument Descriptor
+        - label: Instrument Scientist
+        - label: Legal Owner of instrument
+        - label: Instrument Location
+        - label: Host Institution
+        - label: Instrument Category
+        - label: Data Product
+        - label: Instrument Manufacturer
+        - label: Instrument Model Number
+        - label: Instrument Serial Number
+        - label: Old Instrument Name
+        - label: Instrument Descriptor
     validations:
       required: true
   - type: input
