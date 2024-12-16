@@ -23,13 +23,26 @@ body:
       description: Model name or number of the instrument.
     validations:
       required: true
-  - type: input
-    id: serial
+  - type: dropdown
+    id: serial-type
     attributes:
       label: Instrument Serial Number
       description: Serial number of the instrument.
+      multiple: false
+      options:
+        - known - please enter below
+        - to be assertained - the instrument is known to have one, but needs to be read and entered
+        - none - the instrument has no serial number
+        - missing - the instrument should have a serial number, but it is missing for some reason
+        - unknown - when one can not be obtained (e.g. historical instrument that has been disposed)
     validations:
       required: true
+  - type: input
+    id: serial
+    attributes:
+      label: If serial number is known, please enter below
+    validations:
+      required: false
   - type: input
     id: scientist-name
     attributes:
