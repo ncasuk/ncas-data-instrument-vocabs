@@ -172,26 +172,30 @@ body:
         - ncas-temperature-rh-1
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: attr
     attributes:
-      label: Attribute
-      description: Which attribute of the instrument needs changing.
-      multiple: false
+      label: Attribute(s)
+      description: Which attribute(s)of the instrument need(s) changing.
       options:
-        - Instrument Scientist
-        - Legal Owner of instrument
-        - Instrument Location
-        - Host Institution
-        - Instrument Category
-        - Data Product
+        - label: Instrument Scientist
+        - label: Legal Owner of instrument
+        - label: Instrument Location
+        - label: Host Institution
+        - label: Instrument Category
+        - label: Data Product
+        - label: Instrument Manufacturer
+        - label: Instrument Model Number
+        - label: Instrument Serial Number
+        - label: Old Instrument Name
+        - label: Instrument Descriptor
     validations:
       required: true
-  - type: input
-    id: serial
+  - type: textarea
+    id: new-attr-values
     attributes:
-      label: New value
-      description: What should the new value of this attribute be?
+      label: New value(s)
+      description: What should the new value of the attribute(s) be?
     validations:
       required: true
   - type: textarea

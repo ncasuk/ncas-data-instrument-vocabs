@@ -27,7 +27,7 @@ body:
     id: serial
     attributes:
       label: Instrument Serial Number
-      description: Serial number of the instrument.
+      description: Serial number of the instrument. If unknown, please state why.
     validations:
       required: true
   - type: input
