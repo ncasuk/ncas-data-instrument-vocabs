@@ -191,11 +191,11 @@ body:
         - label: Instrument Descriptor
     validations:
       required: true
-  - type: input
-    id: serial
+  - type: textarea
+    id: new-attr-values
     attributes:
-      label: New value
-      description: What should the new value of this attribute be?
+      label: New value(s)
+      description: What should the new value of the attribute(s) be?
     validations:
       required: true
   - type: textarea
