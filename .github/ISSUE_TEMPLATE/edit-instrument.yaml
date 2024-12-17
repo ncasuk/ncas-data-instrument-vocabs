@@ -170,6 +170,8 @@ body:
         - ncas-sunphotometer-3
         - ncas-sunphotometer-4
         - ncas-temperature-rh-1
+        - ncas-lidar-aerosol-1
+        - ncas-sonic-6 
     validations:
       required: true
   - type: checkboxes
