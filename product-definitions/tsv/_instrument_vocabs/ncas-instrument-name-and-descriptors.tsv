@@ -110,7 +110,7 @@ PAN-GC	Bespoke	Bespoke			ncas-pan-gc-1	peroxyacetyl-nitrate-concentration	Mobile
 Present Weather	Campbell Scientific	PWS100	E1067		ncas-present-weather-1	present-weather	fixed - CAO	STFC	Judith Jeffery	present weather	NCAS Present Weather unit 1	NCAS
 Pressure	Vaisala	R0610199			ncas-pressure-1	surface-met	fixed - CAO	STFC	Judith Jeffery	surface met	NCAS Pressure Sensor unit 1	NCAS
 PTRMS	Ionicon Analytik	Bespoke		uea-ptrms	ncas-ptrms-1	voc-concentration	Mobile	UEA	David Oram	gas phase	NCAS Proton Transfer Reaction Mass Spectrometer unit 1	NCAS
-Radar - CAMRa					ncas-radar-camra-1	radar	fixed - CAO	STFC	Chris Walden	radar	NCAS X-Band CAMRa Weather Radar unit 1	NCAS
+Radar - CAMRa					ncas-radar-camra-1	radar	fixed - CAO	STFC	Chris Walden	radar	NCAS S-Band CAMRa Weather Radar unit 1	NCAS
 Radar - Copernicus					ncas-radar-ka-band-1	radar	fixed - CAO	STFC	Chris Walden	radar	NCAS Ka-Band Copernicus Cloud Radar unit 1	NCAS
 Radar - Galileo					ncas-radar-w-band-1	radar	fixed - CAO	STFC	Chris Walden	radar	NCAS W-Band Galileo Cloud Radar unit 1	NCAS
 Radar - mobile ka band	METEK	MIRA-35			ncas-mobile-ka-band-radar-1	radar	Mobile	STFC	Chris Walden	radar	NCAS Ka-Band Mobile Cloud Radar unit 1	AMOF
@@ -153,3 +153,5 @@ temperature\rh sensor	Vaisala	HMP155A	L0550630		ncas-temperature-rh-1	surface-me
 Camera	Canon	EOS 6D Mark II	583053001031	None	ncas-cam-11	photo	Mobile	Leeds	James Groves	imager	NCAS Camera unit 11	NCAS
 Camera	Canon	EOS 6D Mark II	583053001033	None	ncas-cam-12	photo	Mobile	Leeds	James Groves	imager	NCAS Camera unit 12	NCAS
 Radar	LEONARDO Germany GmbH	Meteor 60DX10-S	2208392	None	ncas-radar-x-band-2	radar	Mobile	Leeds	Lindsay Bennett	radar	NCAS X-Band Mobile Radar unit 2	Leeds
+Lidar - Aerosol	Cimel	CE376-GPN	2102-029	none	ncas-lidar-aerosol-1	aerosol-backscatter, |cloud-base|depolarisation-ratio	Mobile	Manchester	Hugo Ricketts	profiler	NCAS Aerosol Lidar unit 1	NCAS
+Anemometer 2D Sonic	Gill	WindSonic	pending retrieval from unit in field	none	ncas-sonic-6	mean-winds	fixed - CVAO	Leeds	Joshua Hampton	Winds	NCAS Sonic Anemometer unit 6
