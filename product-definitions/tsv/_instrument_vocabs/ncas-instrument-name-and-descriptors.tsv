@@ -155,3 +155,4 @@ Camera	Canon	EOS 6D Mark II	583053001033	None	ncas-cam-12	photo	Mobile	Leeds	Jam
 Radar	LEONARDO Germany GmbH	Meteor 60DX10-S	2208392	None	ncas-radar-x-band-2	radar	Mobile	Leeds	Lindsay Bennett	radar	NCAS X-Band Mobile Radar unit 2	Leeds
 Lidar - Aerosol	Cimel	CE376-GPN	2102-029	none	ncas-lidar-aerosol-1	aerosol-backscatter, |cloud-base|depolarisation-ratio	Mobile	Manchester	Hugo Ricketts	profiler	NCAS Aerosol Lidar unit 1	NCAS
 Anemometer 2D Sonic	Gill	WindSonic	pending retrieval from unit in field	none	ncas-sonic-6	mean-winds	fixed - CVAO	Leeds	Joshua Hampton	Winds	NCAS Sonic Anemometer unit 6
+Anemometer 2D Sonic	Metek	USA-1	200607005/01	cfarr-sonic-anemometer	ncas-sonic-5	mean-winds	fixed - CAO	STFC	Chris Walden	Winds	NCAS Sonic Anemometer unit 5	STFC
