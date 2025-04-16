@@ -876,6 +876,13 @@
                 "none"
             ],
             "description": "NCAS Sonic Anemometer unit 6"
+        },
+        "ncas-sonic-5": {
+            "instrument_id": "ncas-sonic-5",
+            "previous_instrument_ids": [
+                "cfarr-sonic-anemometer"
+            ],
+            "description": "NCAS Sonic Anemometer unit 5"
         }
     }
 }
