@@ -44,6 +44,13 @@
             "instrument_id": "uea-sodar-rass-1",
             "previous_instrument_ids": [],
             "description": "UEA Sodar Rass unit 1"
+        },
+        "stfc-temperature-rh-1": {
+            "instrument_id": "stfc-temperature-rh-1",
+            "previous_instrument_ids": [
+                "ncas-temperature-rh-1"
+            ],
+            "description": "STFC Temperature and Humidity Sensor unit 1"
         }
     }
 }

@@ -30,12 +30,12 @@
         "ncas-anemometer-1": {
             "instrument_id": "ncas-anemometer-1",
             "previous_instrument_ids": [],
-            "description": "NCAS Mechanicle Anemometer unit 1"
+            "description": "NCAS Mechanical Anemometer unit 1"
         },
         "ncas-anemometer-2": {
             "instrument_id": "ncas-anemometer-2",
             "previous_instrument_ids": [],
-            "description": "NCAS Mechanicle Anemometer unit 2"
+            "description": "NCAS Mechanical Anemometer unit 2"
         },
         "ncas-aps-1": {
             "instrument_id": "ncas-aps-1",
@@ -836,11 +836,6 @@
             "instrument_id": "ncas-sunphotometer-4",
             "previous_instrument_ids": [],
             "description": "NCAS Sky-Sun-Lunar Photometer unit 4"
-        },
-        "ncas-temperature-rh-1": {
-            "instrument_id": "ncas-temperature-rh-1",
-            "previous_instrument_ids": [],
-            "description": "NCAS Temperature and Humidity Sensor unit 1"
         },
         "ncas-cam-11": {
             "instrument_id": "ncas-cam-11",
