@@ -17,4 +17,4 @@ Repository is linked to Zenodo for tagged releases of this vocabulary.
 
 e.g.
 
- ncas-<type-of-instrument>-<point-of-interest>-X
+ `ncas-<type-of-instrument>-<point-of-interest>-X`
