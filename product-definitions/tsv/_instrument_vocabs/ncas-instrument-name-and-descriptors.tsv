@@ -1,4 +1,4 @@
-Instrument	Manufacturer	Model No.	Serial Number	Old Instrument Name	New Instrument Name	Data Product(s)	Mobile/Fixed (loc)	Host	Scientist	Category	Descriptor	Owner	PID
+Instrument	Manufacturer	Model No.	Serial Number	Old Instrument Name	New Instrument Name	Data Product(s)	Mobile/Fixed (loc)	Legal Owner	Scientist	Category	Descriptor	Administrating Body	PID
 AMS C-TOF-AMS	Aerodyne Research Inc	C-TOF-AMS		man-ams	ncas-aerosol-mass-spec-1	aerosol-no3-so4-nh3-org-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS Aerosol Mass Spectrometer unit 1	NCAS
 Anemometer 2D Sonic	Gill	WindSonic			ncas-sonic-3	mean-winds	fixed - IAO	Leeds	Barbara Brooks	Winds	NCAS Sonic Anemometer unit 3	NCAS
 Anemometer 2D Sonic	Gill	WindSonic			ncas-sonic-4	mean-winds	fixed - CVAO	York	Katie Read	gas phase	NCAS Sonic Anemometer unit 4	NCAS
