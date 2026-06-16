@@ -184,7 +184,7 @@ body:
         - label: Instrument Scientist
         - label: Legal Owner of instrument
         - label: Instrument Location
-        - label: Host Institution
+        - label: Administrating Body
         - label: Instrument Category
         - label: Data Product
         - label: Instrument Manufacturer
