@@ -20,5 +20,5 @@ jobs:
             - [ ] Instrument descriptor.
             - [ ] Data product(s).
             - [ ] Instrument category.
-            - [ ] Host institution.
+            - [ ] Administrating Body.
             - [ ] List of previous instrument IDs (if any)." | gh issue comment ${{ github.event.issue.number }} -F -

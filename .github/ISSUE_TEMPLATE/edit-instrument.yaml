@@ -169,10 +169,19 @@ body:
         - ncas-sunphotometer-2
         - ncas-sunphotometer-3
         - ncas-sunphotometer-4
-        - ncas-temperature-rh-1
         - ncas-lidar-aerosol-1
         - ncas-sonic-6
         - ncas-sonic-5
+        - stfc-temperature-rh-1
+        - uea-aws-1
+        - uea-aws-2
+        - uea-caps-1
+        - uea-42i-nox-1
+        - uea-49i-o3-1
+        - uea-fidas200E-1
+        - uea-radon-1
+        - uea-43i-so2-1
+        - uea-sodar-rass-1
     validations:
       required: true
   - type: checkboxes
@@ -184,7 +193,7 @@ body:
         - label: Instrument Scientist
         - label: Legal Owner of instrument
         - label: Instrument Location
-        - label: Host Institution
+        - label: Administrating Body
         - label: Instrument Category
         - label: Data Product
         - label: Instrument Manufacturer
