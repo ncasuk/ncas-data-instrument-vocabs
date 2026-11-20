@@ -102,7 +102,7 @@ NOx	Teledyne	T200UP			ncas-teledyne-t200up-nox-1	nox-noxy-concentration	Mobile	Y
 O2	Sable	Oxzilla II		wao-O2	ncas-o2-1	o2n2-concentration-ratio	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Seimens Oxilla O2 Gas Monitor unit 1	NCAS
 O3	2B Technologies	202		york-ozone6	ncas-2b-1chan-o3-1	o3-concentration	Mobile	York	Katie Read	gas phase	NCAS 1 Channel O3 Monitor unit 1	AMOF
 O3	2B Technologies	205		york-ozone7	ncas-2b-2chan-o3-1	o3-concentration	Mobile	York	Katie Read	gas phase	NCAS 2 Channel O3 Monitor unit 1	AMOF
-O3	ThermoScientific	49c		leeds-o3	ncas-49c-o3-1	o3-concentration	Mobile	Leeds	Lisa Whalley	gas phase	NCAS Thermo 42c O3 Monitor unit 1	AMOF
+O3	ThermoScientific	49c		leeds-o3	ncas-49c-o3-1	o3-concentration	Mobile	Leeds	Lisa Whalley	gas phase	NCAS Thermo 49c O3 Monitor unit 1	AMOF
 O3	ThermoScientific	49i		cv-tei-o3	ncas-49i-o3-1	o3-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS Thermo 49i O3 Monitor unit 1	NCAS
 O3	ThermoScientific	49i			ncas-49i-o3-3	o3-concentration	fixed - BTTAO	York	James Lee	gas phase	NCAS Thermo 49i O3 Monitor unit 3	NCAS
 O3	ThermoScientific	49i		york-ozone3	ncas-49i-o3-4	o3-concentration	Mobile	York	Katie Read	gas phase	NCAS Thermo 49i O3 Monitor unit 4	AMOF
@@ -155,3 +155,7 @@ Radar	LEONARDO Germany GmbH	Meteor 60DX10-S	2208392	None	ncas-radar-x-band-2	rad
 Lidar - Aerosol	Cimel	CE376-GPN	2102-029	none	ncas-lidar-aerosol-1	aerosol-backscatter,  cloud-base depolarisation-ratio	Mobile	Manchester	Hugo Ricketts	profiler	NCAS Aerosol Lidar unit 1	NCAS
 Anemometer 2D Sonic	Gill	WindSonic	pending retrieval from unit in field	none	ncas-sonic-6	mean-winds	fixed - CVAO	Leeds	Joshua Hampton	Winds	NCAS Sonic Anemometer unit 6
 Anemometer 2D Sonic	Metek	USA-1	200607005/01	cfarr-sonic-anemometer	ncas-sonic-5	mean-winds	fixed - CAO	STFC	Chris Walden	Winds	NCAS Sonic Anemometer unit 5	STFC
+N2O, CO	Aeris	MIRA Ultra	101314	none	ncas-analyser-n2o-co-1	n2o-concentration, co-concentration	Mobile	UEA	Grant Forster	gas phase	NCAS Nitrous Oxide and Carbon Monoxide Gas Concentration Analyser unit 1	AMOF
+CH4, CO2, H2O	Picarro	G2301	4188-CFADS2564	none	ncas-analyser-co2-ch4-h2o-1	ch4-co2-h2o-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Carbon Dioxide, Methane and Water Vapour Gas Concentration Analyser unit 1	NCAS
+H2	Agilent, VICI	7890B, PD-M2	US20413005, EPDM18224	none	ncas-pdd-h2-1	h2-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS H2 Pulsed Discharge Detector unit 1	NCAS
+CH4, C2H6	Aeris	MIRA Ultra	101370	none	ncas-analyser-ch4-c2h6-1	ch4-c2h6-concentration	Mobile	UEA	Grant Forster	gas phase	NCAS Methane and Ethane Gas Concentration Analyser unit 1	AMOF

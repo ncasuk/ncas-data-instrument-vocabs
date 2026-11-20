@@ -576,7 +576,7 @@
             "previous_instrument_ids": [
                 "leeds-o3"
             ],
-            "description": "NCAS Thermo 42c O3 Monitor unit 1"
+            "description": "NCAS Thermo 49c O3 Monitor unit 1"
         },
         "ncas-49i-o3-1": {
             "instrument_id": "ncas-49i-o3-1",
@@ -878,6 +878,34 @@
                 "cfarr-sonic-anemometer"
             ],
             "description": "NCAS Sonic Anemometer unit 5"
+        },
+        "ncas-analyser-n2o-co-1": {
+            "instrument_id": "ncas-analyser-n2o-co-1",
+            "previous_instrument_ids": [
+                "none"
+            ],
+            "description": "NCAS Nitrous Oxide and Carbon Monoxide Gas Concentration Analyser unit 1"
+        },
+        "ncas-analyser-co2-ch4-h2o-1": {
+            "instrument_id": "ncas-analyser-co2-ch4-h2o-1",
+            "previous_instrument_ids": [
+                "none"
+            ],
+            "description": "NCAS Carbon Dioxide, Methane and Water Vapour Gas Concentration Analyser unit 1"
+        },
+        "ncas-pdd-h2-1": {
+            "instrument_id": "ncas-pdd-h2-1",
+            "previous_instrument_ids": [
+                "none"
+            ],
+            "description": "NCAS H2 Pulsed Discharge Detector unit 1"
+        },
+        "ncas-analyser-ch4-c2h6-1": {
+            "instrument_id": "ncas-analyser-ch4-c2h6-1",
+            "previous_instrument_ids": [
+                "none"
+            ],
+            "description": "NCAS Methane and Ethane Gas Concentration Analyser unit 1"
         }
     }
 }
